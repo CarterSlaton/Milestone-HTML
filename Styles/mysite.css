@@ -1,0 +1,134 @@
+/*Styles pages*/
+
+body {
+    background-color: #221f1f;
+}
+
+/*Made the webpage dark mode for preference and to show knowledge in css*/
+h1 {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    color: #927ae3;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0 0 8px
+}
+
+h3 {
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 0 8px
+}
+
+h4 {
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 8px
+}
+
+h5 {
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 8px
+}
+
+li {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 22px;
+    margin: 0 0 8px
+}
+
+table {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    margin: 0 0 8px
+}
+
+img {
+    border: 4px solid #927ae3
+}
+
+
+p {
+    color: #ffffff;
+    font-size: 16pt;
+    font-family: 'Times New Roman';
+    word-wrap: break-word;
+}
+
+a {
+    color: #927ae3
+}
+
+hr{
+    color: rgb(255, 255, 255);
+}
+
+links{
+    display: inline-block;
+}
+
+
+.links a{
+    color: #927ae3;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 8px;
+}
+
+a.active{
+    padding-bottom: 1px;
+    border-bottom: 3px solid #927AE3;
+}
+
+.flex-container {
+    height: 800px;
+    width: 600px;
+    margin: 0 auto;
+    border: 7px #927AE3 solid;
+  
+  
+     display: flex;  /*makes everything fit into it, will shrink boxes*/ 
+     flex-direction: row; /*will change how they are layed out (updown or leftright)*/ 
+     flex-wrap: wrap; /*Makes text wrap*/
+     align-items: start;  /*align-item effects cross axis up-down*/
+     background-color: #927AE3;
+  }
+
+.box {
+    font-size: 1rem;
+    text-align: center;
+    transform: rotate(270);
+  }
+
+button{
+    height: 30px;
+    width: 80px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #927AE3;
+    border: 3px #ffffff solid; 
+
+}
+
+td, tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ccc;
+}
+
+
